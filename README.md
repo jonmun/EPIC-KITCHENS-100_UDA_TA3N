@@ -3,7 +3,7 @@ This repository contains the code used to produce the baseline results (TA3N) fo
 
 Some modifications have been made to the original TA3N code base to produce results on EPIC-KITCHENS-100 including:
 1. Multiple classification heads to produce predictions for verb and nouns.
-2. Modified dataloader to match structure 
+2. Modified dataloader to load EPIC-KITCHENS-100 pre-extracted features.
 3. Modified training scripts to run the EPIC-KITCHENS-100 UDA baselines based. These have been modified from`script_train_val.sh` in the original repository.
 
 The original TA3N [code](https://github.com/cmhungsteve/TA3N) and [ICCV publication](http://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Temporal_Attentive_Alignment_for_Large-Scale_Video_Domain_Adaptation_ICCV_2019_paper.html) can be found in the provided hyperlinks.
